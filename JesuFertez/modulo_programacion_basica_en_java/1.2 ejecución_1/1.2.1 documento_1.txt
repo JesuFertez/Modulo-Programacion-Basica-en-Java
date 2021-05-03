@@ -1,0 +1,10 @@
+Algoritmo para preparar un Sandwich.
+
+1. Tomar una tapa de pan.
+2. Agregar lechuga sobre la tapa.
+3. Sobre la lechuga poner el tomate en forma de torrejas.
+4. Sobre el tomate poner el jam—n.
+5. Sobre el jam—n poner la segunda tapa de pan.
+
+Entradas: 2 tapas de pan, lechuga, jam—n laminado, torrejas de tomate. 
+Salida: Sandwich para servir.
