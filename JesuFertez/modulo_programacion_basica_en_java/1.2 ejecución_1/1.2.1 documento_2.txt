@@ -1,0 +1,91 @@
+Algoritmo para cambiar rueda al auto.
+
+ENTRADAS: rueda nueva, rueda averiada, auto, gata, persona, llave de cruz, chaleco de seguridad, triangulo.
+
+Proceso:
+
+Poner implementos de seguridad.
+Recolectar herramientas.
+Poner llave de cruz en tuerca1, tuerca2, tuerca3, tuerca4.
+Girar llave de cruz para soltar rueda.
+Accionar  gata para levantar auto, 
+Sacar rueda averiada.
+Poner rueda averiada debajo del auto.
+Poner rueda de repuesto.
+Bajar gata.
+Apretar tuercas.
+Guardas herramientas.
+
+Salida : Rueda cambiada y auto funcionando.
+
+
+
+Algoritmo para cambiar pañales.
+
+Entrada: juntar implementos, mudador, guagua, pañal limpio, algodón o toallitas húmedas, talco, pilucho de repuesto.
+
+
+Proceso:
+
+Inspeccionar al bebe sí requiere cambio.
+Juntar materiales.
+Retirar pañal.
+Limpiar con toallita el popín hasta sacar todo.
+Secar, poner talco.
+Poner pañal nuevo.
+Botar pañal a la basura.
+Guardar implementos.
+
+Salida : bebe feliz y cambiado de pañales.
+
+
+
+
+Algoritmo para cambiar clave de correo.
+
+
+Entradas : clave antigua, clave nueva.
+
+
+Proceso:
+
+Ingresar a correo deseado (gmail).
+Ingresar al perfil de usuario o administrar cuenta.
+Buscar pestaña de seguridad y dar clic para ingresar.
+Buscar opción de cambio de contraseña. 
+Caso 1 si te pide ingresar contraseña vieja. 
+Ingresar contraseña antigua para confirmar seguridad.
+Ingresar contraseña nueva 2 veces. 
+Aceptar cambio de contraseña.
+Reingresar al perfil con la contraseña nueva.
+
+Caso2 si te expulsa del usuario. 
+Ingresar contraseña antigua. 
+Reingresar al perfil.
+Confirmar dos veces clave nueva. 
+Aceptar cambio de contraseña. 
+Reingresar al perfil con contraseña nueva.
+
+Salida: cambio de clave.
+
+
+
+Algoritmo para realizar compra en tienda virtual 
+
+Entrada: dispositivo con conexión a internet, navegador, tienda virtual, selección de producto deseado.
+
+Tomar el dispositivo.
+Abrir el navegador.
+Ir a la página de la tienda virtual.
+Escoger el producto a comprar.
+Agregar a canasta virtual.
+Poner métodos de envío, dirección y contacto. 
+Escoger medio de pago. 
+Abrir webpay.
+Ingresar datos bancarios.
+Confirmar monto.
+Validar clave de coordenadas.
+
+Salida: Emisión de boleta y compra de producto.
+
+
