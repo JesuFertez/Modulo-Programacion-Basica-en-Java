@@ -1,0 +1,61 @@
+
+Actividad 1
+
+Algoritmo para boleta de honorarios
+Entrada: Trabajador, nombre, rut, días trabajados, valor por día/hora, ausencias, datos de salud. 
+
+Proceso
+Ingresan los datos del trabajador, nombre, rut, 
+Ingresar fecha de contrato (mes, año)
+Ingresar nombre del trabajador
+Ingresar datos de identificación de trabajador (Rut)
+Ingresar sueldo base
+Ingresar número de días trabajados
+Ingresar números de días ausentes
+Calcular horas trabajadas por valor/hora trabajada
+Descuentos provisionales.
+
+Salida: Liquidación de sueldo/ boleta de honorarios.
+
+Variable: Sueldo, rut, nombre, descuentos, bonos, afp, horas extras, atrasos, gratificación, semana corrida. 
+Constante: Descuentos, Salud, seguro cesantía, valor por hora trabajada,
+
+Tipos de Datos a usar: String, double, float, boolean.
+
+
+
+Actividad 2
+
+
+App para  aforo de personas en tiendas comerciales.
+
+
+(Espera de filas-  App de trazavilidad)
+Especie de Waze con aforo de personas, con el fin de evitar aglomeraciones.
+
+Variables: Numero de personas, Aforo permitido tienda + áreas comunes  de Mall, mensaje de acciones sugeridas.  
+Constantes: Mensajes por segmento de aforo acorde a un porcentaje preestablecido.
+
+Requerimientos:
+Establecer cantidad de gente; aforo - personas que ingresaron + personas que salieron.
+Tiempos de espera
+Aforo permitido.
+
+
+App para vincular cuentas escolares.
+
+Variables: 	notas, establecimiento, plataformas, usuarios, tipo de evaluación.		
+Constantes: Mensajes de alerta por evaluación pendiente. 
+
+Requerimientos:   
+Calendarización de actividades.
+Obtener certificados, documentos y notas escolares.
+Notificación de evaluaciones o actividades pendientes.
+
+
+
+
+
+
+
+ 
