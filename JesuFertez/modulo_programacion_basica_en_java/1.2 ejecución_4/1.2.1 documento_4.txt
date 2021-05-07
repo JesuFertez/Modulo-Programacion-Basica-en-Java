@@ -1,0 +1,146 @@
+Actividad 1 con fecha: 5-5-2021
+
+Pseudocódigo - Constantes y Variables 
+
+
+	Pseudocódigo que permita sumar dos números 
+
+Inicio 
+
+short A=0
+short B=0
+short suma=0
+
+Escribe ("ingrese dos numeros para ser sumados")
+Escribe ("ingrese su primer valor")
+Leer A
+Escribe ("ingrese su segundo valor")
+Leer B
+
+suma=A+B
+
+Escribe ("Su resultado es " suma)
+
+Fin
+
+	Algoritmo para calcular promedio de 3 notas 
+ 
+
+Inicio 
+
+Int A=0
+Int B=0
+Int C=0
+Int Suma =0
+
+Escribe (Ingrese nota 1)
+Lee nota 1
+
+Escribe (Ingrese nota 2)
+Lee nota 2 
+
+Escribe (Ingrese nota 3)
+Lee nota 3 
+
+Suma= (A+B+C) / 3  
+ 
+Escribe ( “El promedio de notas es: ” , Suma)
+
+
+	Algoritmo para calcular el cuadrado de un número
+
+Inicio
+
+Int X=0
+Int resultado=0
+
+Escribe “ingrese valor a calcular”
+Leer X
+
+X=X*X 
+resultado=X
+
+Escribe “ Su resultado es” , resultado
+
+Fin 
+
+———————————————————————————————————————————————--------------------------------------
+
+Actividad 2 
+
+	Algoritmo en Pseudocodigo para Modelo y Marca de vehículo.
+
+Inicio 
+
+Variables: Modelo vehículo, Marca vehículo.
+
+String Modelo
+String Marca
+
+Escribe "Ingrese Marca Vehículo"
+Leer Marca
+Escribe "Ingrese Modelo Vehículo"  
+Leer Modelo
+
+Escribe "La Marca es", marca 
+Escribe " El modelo es" Modelo 
+
+Fin
+
+	Algoritmo en pseudocodigo para calcular el porcentaje de un número
+
+Inicio 
+Variables: Número, porcentaje, resultado.
+
+Short Numero=0
+Float Porcentaje=0
+Float Resultado=0
+
+Escribe "Ingrese número"
+Leer Numero
+Escribe " Ingrese porcentaje a calcular"
+Leer Porcentaje
+Resultado= (Numero*Porcentaje)/100 
+Escribe "El porcentaje es", resultado 
+
+Fin
+
+	Algoritmo en pseudocodigo para calcular comisión por ventas más sueldo mensual.
+
+Inicio 
+
+Variables: Sueldo base, Comisión, ventas; 1, 2, 3. 
+
+Int Sueldo Base=0 
+Float Comision=0 
+Short venta1
+Short venta2
+Short venta3
+Int Total=0
+
+Escribe " Ingrese sueldo Base"
+Leer sueldo Base
+Escribe "Ingrese venta 1"
+Leer venta 1
+Escribe "Ingrese venta 2"
+Leer venta 2
+Escribe "Ingrese venta 3"
+Leer venta 3 
+
+Comisión= (venta1 + venta 2 + venta 3)* 0.10 
+Total= Comisión + Sueldo Base
+Escribe "Su total a pagar es", Total
+
+Fin 
+
+
+-------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
