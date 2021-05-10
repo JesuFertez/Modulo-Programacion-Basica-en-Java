@@ -1,4 +1,4 @@
-Actividad 1 con fecha: 5-5-2021
+	Actividad 1 con fecha: 5-5-2021
 
 Pseudocódigo - Constantes y Variables 
 
@@ -64,11 +64,35 @@ Escribe “ Su resultado es” , resultado
 
 Fin 
 
+------------------------------------------------------------------------------------
+	
+	Actividad 2 
+
+	Inversión de individuo en un Banco a razón de 2% mensual.
+
+Variables: Capital, Ganacia, Porcentaje
+
+Int Capital
+Float Porcentaje
+Int Ganancia
+
+Inicio
+
+Escribe "Ingresa tu capital"
+	Lee capital
+Escribe "Ingresa porcentaje"
+	Lee Porcentaje
+Ganancia= (Capital*Porcentaje) / 100
+Escribe " El porcentaje de ganancia para tu capital en un mes sería:", Ganancia
+
+Fin
+
+
 ———————————————————————————————————————————————--------------------------------------
 
-Actividad 2 
+Actividad 3
 
-	Algoritmo en Pseudocodigo para Modelo y Marca de vehículo.
+	Algoritmo en Pseudocódigo para Modelo y Marca de vehículo.
 
 Inicio 
 
@@ -87,7 +111,7 @@ Escribe " El modelo es" Modelo
 
 Fin
 
-	Algoritmo en pseudocodigo para calcular el porcentaje de un número
+	Algoritmo en pseudocódigo para calcular el porcentaje de un número
 
 Inicio 
 Variables: Número, porcentaje, resultado.
@@ -101,18 +125,18 @@ Leer Numero
 Escribe " Ingrese porcentaje a calcular"
 Leer Porcentaje
 Resultado= (Numero*Porcentaje)/100 
-Escribe "El porcentaje es", resultado 
+Escribe "El porcentaje de:", Numero, "es", resultado 
 
 Fin
 
-	Algoritmo en pseudocodigo para calcular comisión por ventas más sueldo mensual.
+	Algoritmo en pseudocódigo para calcular comisión por ventas más sueldo mensual.
 
 Inicio 
 
 Variables: Sueldo base, Comisión, ventas; 1, 2, 3. 
 
 Int Sueldo Base=0 
-Float Comision=0 
+Float Comision
 Short venta1
 Short venta2
 Short venta3
@@ -129,13 +153,48 @@ Leer venta 3
 
 Comisión= (venta1 + venta 2 + venta 3)* 0.10 
 Total= Comisión + Sueldo Base
-Escribe "Su total a pagar es", Total
+
+Escribe " El total de su comisión este mes fue de:", comisión, " eso sumado a su sueldo base da un total a pagar de:", Total
 
 Fin 
 
 
 -------------------------------------------------------------------------------------
 
+
+		Intercambio de Valores
+Formula 1
+
+A=2
+B=3
+	Inicio
+	Escribe "Ingrese valor A"
+		Lee A
+	Escribe "Ingrese valor B"
+		Lee valor B
+
+		A=(A+B)
+		B=(A-B)
+		A=(A-B)
+
+Escribe "El nuevo valor para A es:", A, " y el nuevo valor para B es:" B 
+	Fin
+ 
+Formula 2 
+
+Inicio 
+
+Int A
+Int B 
+Int Cambio
+		Escribe "Ingresa valor para A"
+		Lee A
+		Escribe "Ingresa valor para B"
+		Lee B 
+Cambio = A
+A = B
+B = Cambio 
+		Escribe " El nuevo valor para A es:", A, "y el nuevo valor para B es:", B
 
 
 

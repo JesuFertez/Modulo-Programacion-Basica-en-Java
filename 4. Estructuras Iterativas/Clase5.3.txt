@@ -1,0 +1,148 @@
+Realizar algoritmo utilizando una de las tres estructuras Iterativas para resolver los siguientes problemas.
+
+1. Mostrar los números del 1 al 100 y del 100 al 1
+
+
+ Estructura Iterativa Para;
+
+i=1
+	Inicio
+		Para (i=1; i<=100; i++)
+			Escribir i
+	Fin Para
+
+i=100
+	Inicio 
+		Para (i=100; i>=1; i--)
+			Escribir i
+	Fin Para
+
+
+Estructura iterativa Mientras;
+
+i=1
+	Inicio 
+		Mientras (i<=100)
+			Escribir i
+		i=i++
+	Fin Mientras
+
+i=100 
+	Inicio
+		Mientras (i>=1)
+			Escribir i
+		i=i--
+	Fin Mientras
+
+
+Estructura iterativa Hacer Mientras;
+
+i=1
+	Inicio 
+		i=1
+		  Escribir i
+		     i=i++
+		Mientras (i<=100)
+	Fin Mientras
+
+i=100
+	Inicio
+		i=100
+		  Escribir i
+		     i=i--
+		Mientras (i>=1)
+
+
+
+2. Sumar solo los números pares ingresados por un usuario (la cantidad de números que se ingresa deben ser determinadas por el usuario)
+
+Int Num1
+Int Num=o 
+Int Suma 
+Short Cont=0
+Final Contador
+
+
+	Inicio 	
+		Escribe "Ingrese la cantidad de números a sumar"
+			Lee cont
+			Final Contador=cont
+		Escribe "Ingrese un número par a sumar"
+			Lee Num1
+		Para (Num1 % 2 ==0; Cont>=0; Cont= Cont--)
+			Suma=Num1+Num
+			Escribe Suma
+			Si (Num1 % 2 !=0)
+				Escribe "Éste número no es par, ¡Intente de nuevo!
+			Fin Si
+		Fin Para
+		Escribe " La suma de los números pares ingresados es:", Suma, "el total de los números sumados es:", Final Contador
+	Fin
+
+
+3. Determinar la cantidad de números múltiplos de 5 que fueron ingresados (la cantidad de números que se ingresan debe ser determinada por el usuario.
+
+Int Num1
+Int Cont
+
+	
+	Inicio
+		Escribe "Ingrese cantidad total de números a a verificar "
+			Lee Cont
+		Escribe "Ingrese un número"
+			Lee Num1
+		Para (Num1 % 5 ==0; Cont>=0; Cont= Cont --)
+			Escribe "Este número es múltiplo de 5"
+				Si (Num1 % 5 !=0)
+					Escribe "Este número no es múltiplo de 5" "¡Prueba de nuevo!"
+				Fin Si
+		Fin Para
+	Fin
+
+	
+4. Sumar los números pares e impares ingresados por un usuario y contar la cantidad de números pares e impares (la cantidad de números es determinada por el usuario).
+
+
+Int Num1
+Int SumaPar
+Int Sumaimpar
+Int Cont
+Int Spar=0
+Int Simp=0
+Cont_Par=0
+Cont_Imp=0
+
+	Inicio 
+		Escribe "Ingrese cantidad total de números a verificar"
+			Lee Cont
+		Escribe "Ingrese un número"
+			Lee Num1
+	Para (Num1!=0; Cont>=0; Cont=Cont --)
+		 Si (Num1 % 2== 0 ;)
+		Escribe "El número ingresado es par"
+			SumaPar= Num1+ Spar 
+				Cont_Par=Cont_Par ++
+				Si No 
+				    Escribe "El número ingresado es impar" 
+					Simp= NUm1 + Simp
+					Cont_Imp=Cont_Imp ++
+		Fin Si
+	Fin Para
+		Escribe "La Suma de los números pares es:", SumaPar, "la cantidad de números pares sumados es:", Cont_Par.
+		Escribe "La Suma de los números impares es:",Simp, "la cantidad de números impares sumados es:", Cont_Imp.
+	Fin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

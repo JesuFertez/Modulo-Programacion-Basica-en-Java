@@ -1,0 +1,175 @@
+ Ejercicios Clase 8
+
+Realizar un algoritmo en pseudocódigo  que resuelva los siguientes problemas utilizando una de las tres estructuras iterativas que hemos visto (Mientras _ Hacer Mientras y Para):
+
+1. Calcular la multiplicación de N números ingresados por el usuario que sean números primos. (La cantidad debe ser ingresada por el mismo usuario)
+
+Int Cant
+Int Num
+Int Num1
+
+	Inicio 
+		Escribe "Ingrese cantidad de números a calcular"
+			Lee Cant
+			Escribe "Ingrese Un Número"
+			Lee Num
+	Mientras (Cant>=0)
+	
+		Si (Num%2==0)
+			Escribe "Por regla de divisibilidad, se establece que este número no es un número primo."
+		Si No 
+			Escribe "Ingrese otro número"
+				Lee Num1
+					Num=Num* Num1
+			Escribe Num
+		  Cant=Cant--
+		Fin Si
+	Fin Mientras
+		Escribe " El total de la multiplicación de números primos ingresados es:", Num	
+	Fin	 
+
+
+2. Sumar solo los números pares ingresados por un usuario (la cantidad de números que se ingresan debe ser determinada por el usuario)
+
+Int Cont=0
+Int Num
+Int Cant
+Int Suma
+	Inicio 
+		Escribe "Ingrese cantidad de números a comprobar"
+			Lee Cant
+	Mientras (Cant>=0)
+		Escribe "Ingrese Un Número"
+			Lee Num
+			Si (Num%2==0)
+				Cont=Cont++
+				Suma=Suma+Num
+			   Si no Escribe "El número ingresado no es par"
+				Cant=Cant--
+			Fin Si
+	Fin Mientras
+	
+	Escribe " El total de los números pares ingresados es:", Cont, " y la suma de los números pares es:", Suma
+
+
+3. Determinar la cantidad de números múltiplos de 5 que fueron ingresados (la cantidad la determina el usuario)
+
+Int Cont=0
+Int Num
+Int Cant
+
+	Inicio 
+		Escribe "Ingrese cantidad de números a comprobar"
+			Lee Cant
+	Mientras (Cant>=0)
+		Escribe "Ingrese Un Número"
+			Lee Num
+			Si (Num%5==0)
+				Cont=Cont++
+			   Si no Escribe "El número ingresado no es múltiplo de 5"
+				Cant=Cant--
+			Fin Si
+	Fin Mientras
+	
+	Escribe " El total de los múltiplos de 5 ingresados es:", Cont
+
+			 
+
+4.Sumar los números pares e impares ingresados por un usuario y contar la cantidad de pares e impares que fueron sumados. (La cantidad de números que se ingresan lo determina el usuario).
+
+ContPar=0
+ContImpar=0
+Int Cant
+Int Num
+Int SumaP
+Int SumaI
+
+	Inicio
+	    Escribe “Indique cuantos números desea ingresar"
+			Lee Cant
+		Mientras Cant>=0
+				Escribe "Ingresa un número"
+						Leer Num
+					Si (num%2==0)
+					ContPar=ContPar ++
+						SumaP=SumaP+Num
+							Si No 
+							ContImpar=ContImpar ++
+							SumaI=SumaI+Num
+					Fin Si
+			Cant=Cant--
+		Fin Mientras
+
+	Escribe "El total de los números pares sumados es:", ContPar, y la suma de los números es:", SumaP
+	Escribe "El total de los números impares sumados es:", ContImpar, y la suma de los números es:", SumaI
+	
+	Fin
+
+5. Se ingresa una cantidad de números, calcular la suma de todos los números pares ingresados y la multiplicación de todos los impares ingresados, además determinar si de los números ingresados fueron más pares e impares (la cantidad de números que se ingresan la determina el usuario)
+
+Int Cant
+Int SumaP
+Int Mult
+Int ContPar
+Int ContImpar
+Int Num
+		Inicio 
+		  Escribe "Ingrese cantidad de números a calcular"
+ 				Lee Cant
+		Mientras Cant>=0
+				Escribe "Ingresa un número"
+						Leer Num
+					Si (num%2==0)
+					ContPar=ContPar ++
+						SumaP=SumaP+Num
+							Si No 
+							ContImpar=ContImpar ++
+							Mult=Mult*Num
+					Fin Si
+			Cant=Cant--
+		Fin Mientras
+
+	Escribe "La Suma de los números pares ingresados es:", SumaP, "La cantidad de números pares sumados es:", ContPar
+	Escribe "La multiplicación de los números impares ingresados es:", Mult, "La cantidad de números impares multiplicados es:", ContImpar
+	Si (ContPar>ContImpar)
+		Escribe " La Cantidad de números pares es mayor a la de impares"
+		Si No 	
+		  Escribe "La cantidad de números impares es mayor a la de pares"
+	Fin Si
+		Fin
+
+
+6.Calcular el promedio de N notas ingresadas, y determinar si aprueba o reprueba.
+
+Byte Cant
+Float Nota
+Float Promedio=0
+Float Suma
+Final Total
+
+
+		Inicio 
+		  Escribe "Ingrese cantidad de Notas a promediar"
+ 				Lee Cant
+			Total=Cant
+		Mientras Cant>=0
+				Escribe "Ingresa una Nota"
+						Leer Nota
+				Suma=Suma+Nota
+			Cant=Cant --
+		Fin Mientras
+			Promedio= Suma/Total
+				Si Promedio>=4.0f Escribe "¡Felicidades! Usted aprueba con nota:", Promedio
+				    Si No Escribe " ¡Lo sentimos! Usted reprueba con nota:",Promedio
+				Fin Si
+
+		Fin
+
+
+
+			
+			
+		
+					
+
+

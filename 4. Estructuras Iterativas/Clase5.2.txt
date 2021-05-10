@@ -1,0 +1,115 @@
+Crear un Algoritmo para resolver el siguiente problema
+
+1. Que permita determinar si la suma de dos números es positiva, negativa o cero
+
+Int Num1
+Int Num2
+Int Suma
+	Inicio 	
+		Escribe "¿Sumamos?"
+		Escribe "Ingrese un Numero"
+		Lee Num1
+		Escribe "Ingrese otro número"
+		Lee Num2
+	Suma= (Num1 + Num2)
+		Si(Suma>0)
+		Escribe "El resultado es:", Suma, "positivo"
+			Si No Si (Suma<0) 
+				Escribe "El resultado es:", Suma, "negativo"
+					Si No 
+					Escribe "El resultado es:",Suma, "es un número neutro"
+			Fin Si
+		Fin Si
+	Fin
+
+2. Que indique si un número es divisible por 2 y 5 al mismo tiempo
+
+Int Num
+	Inicio
+		Escribe "Ingrese un número"
+		Lee Num
+	Si (Num % 2 ==0 y Num% 5 ==0) 
+		Escribe "El número:", Num, "es divisible por 2 y por 5, ¡Felicidades!"
+		Si No 
+			Escribe "El número:", Num, "no es divisible por 2 y 5,¡Inténtalo de nuevo!
+		Fin Si
+	Fin
+
+3. Que permita ingresar 4 notas, calcule el promedio de estas y además si el promedio es suficiente para aprobar.
+
+Float Nota1
+Float Nota2
+Float Nota3
+Float Nota4 
+Float Suma
+	Inicio 
+		Escribe "Ingrese Nota1"
+			Leer Nota1
+		Escribe "Ingrese Nota2"
+			Leer Nota2
+		Escribe "Ingrese Nota3"
+			Leer Nota3
+		Escribe "Ingrese Nota4"
+			Leer Nota4
+	Suma=(Nota1 + Nota2 + Nota3 + Nota4)/4
+		Si (Suma>=4.0f)
+			Escribe "Usted Aprueba con Nota:", Suma, "¡Felicidades!
+			Si No
+			Escribe "Lo sentimos usted Reprueba con Nota:", Suma
+		Fin Si
+	Fin
+
+4. Que permita determinar cual es el mayor de 3 números ingresados
+
+Int Num1
+Int Num2
+Int Num3
+	Inicio 
+		Escribe "Ingrese Num1"
+			Leer Num1
+		Escribe "Ingrese Num2"
+			Leer Num2
+		Escribe "Ingrese Num3"
+			Leer Num3
+	Si (Num1> Num2 y Num1>Num3)
+		Escribe "El número:", Num1, "es mayor que", Num2 "y", Num3 
+	Si (Num2> Num1 y Num2>Num3)
+		Escribe "El número:", Num2, "es mayor que", Num1 "y", Num3 
+	Si (Num3> Num1 y Num3>Num2)
+		Escribe "El número:", Num3, "es mayor que", Num1 "y", Num2 
+	Fin 
+
+5. Que solicite al usuario ingresar dos números y realizara la operación matemática con estos números, el usuario debe seleccionar la operación a realizar.
+
+Int Num1
+Int Num2
+Int Resultado
+Byte X
+	Inicio 
+		
+		Escribe "Ingrese Num1"
+			Leer Num1
+		Escribe "Ingrese Num2"
+			Leer Num2
+		Escribe "¿Qué operación quieres realizar? Presiona, 1 para sumar, 2 restar, 3 multiplicar, 4 dividir
+			Leer X
+	Según <X>
+		X=1 resultado=(Num1 + Num2)
+		X=2 resultado=(Num1 - Num2)
+		X=3 resultado=(Num1 * Num2)
+		X=4 resultado=(Num1/ Num2) 
+			Si No Escribir "El Número ingresado no es válido"
+	Fin Según
+		Escribe "El resultado de su operación es:", resultado
+	Fin
+
+
+
+
+	
+
+
+
+
+	
+

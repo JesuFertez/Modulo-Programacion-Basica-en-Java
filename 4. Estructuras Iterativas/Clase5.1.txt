@@ -1,0 +1,90 @@
+ Crear Algoritmos para resolver los siguientes problemas
+
+1. Determinar si un número es par o impar.
+
+Int Num
+	Inicio
+	Escribe "Ingrese Número"
+		Lee Num
+	Si(Num % 2 == 0)
+		Escribe "El número:", Num, "es par"
+		Si No 
+			Escribe "El número:", Num, "es impar"
+	Fin Si
+	Fin
+
+2. Determinar si un número es o no múltiplo de 2.
+
+Int Num
+	Inicio
+	Escribe "Ingrese Número"
+		Lee Num
+	Si(Num % 2 == 0)
+		Escribe "El número:", Num, "es múltiplo de 2"
+		Si No 
+			Escribe "El número:", Num, "no es múltiplo de 2"
+	Fin Si
+	Fin
+
+3. Determinar si el número ingresado es o no múltiplo de 3 
+
+Int Num
+	Inicio
+	Escribe "Ingrese Número"
+		Lee Num
+	Si(Num % 3 == 0)
+		Escribe "El número:", Num, "es múltiplo de 3"
+		Si No 
+			Escribe "El número:", Num, "no es múltiplo de 3"
+	Fin Si
+	Fin
+
+4. Que determine cual es el número mayor de dos ingresados.
+
+Int Num1
+Int Num2
+	Inicio 
+	Escribe "Ingrese un número"
+		Lee Num1
+	Escribe "Ingrese otro número"
+		Lee Num2
+	Si (Num1 > Num2)
+		Escribe "El número:", Num1, "es mayor a:", Num2
+		Si No si (Num1 < Num2)
+			Escribe "El número:", Num1, "es menor a:", Num2
+			Si No
+			Escribe "El número:", Num1, "es igual a:", Num2
+		Fin Si
+	Fin Si
+	Fin
+
+5. Que permita determinar cual es el menor de dos número ingresados
+	
+Int Num1
+Int Num2
+	Inicio 
+	Escribe "Ingrese un número"
+		Lee Num1
+	Escribe "Ingrese otro número"
+		Lee Num2
+	Si (Num1 < Num2)
+		Escribe "El número:", Num1, "es menor a:", Num2
+		Si No si (Num1 > Num2)
+			Escribe "El número:", Num1, "es mayor a:", Num2
+			Si No
+			Escribe "El número:", Num1, "es igual a:", Num2
+		Fin Si
+	Fin Si
+	Fin
+
+
+	
+
+
+
+
+
+
+
+
+

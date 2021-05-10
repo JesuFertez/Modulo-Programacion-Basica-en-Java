@@ -1,0 +1,65 @@
+Ejercicios Clase 6 
+
+Realizar un algoritmo en pseudocódigo que resuelva los siguientes problemas utilizando una de las tres iterativas que hemos visto (mientras- hacer mientras-para)
+
+1. Calcular la suma de los números del 1 al 100
+
+Int i=1
+Int suma=0
+Byte cont=100	
+	Inicio
+		i=1		
+		Mientras (Cont<=100)
+			i=suma+i
+			Cont=Cont--
+			Escribe suma
+		Fin mientras
+	Escribe, "La suma de los números del 1 al 100 es:" suma
+	Fin
+
+2. Calcular la suma de los números que sean múltiplos de 9 que se encuentren entre 1 y 100
+
+Int i=1
+Int Suma
+Int Num
+Int Mult=0
+Byte Cont=0
+	Inicio 
+		Para (i=1; i<=100; i=i++)
+		 Si (Num%9 ==0)
+		   Suma=Num+Mult
+			Cont=Cont++
+		 Fin Si
+		Fin Para
+Escribe "El total de los múltiplos de 9 encontrados es:" Cont "y la suma de los múltiplos es:"Suma
+
+3. Calcular la suma de N números ingresados por un usuario. (La cantidad debe ser ingresada por el mismo usuario.
+
+Int Num
+Int Suma
+Int Cont=0
+Int Cantidad
+ 
+	Inicio 
+		Escribe "Ingrese cantidad de números a sumar"
+			Lee cantidad 
+		Escribe "Ingrese un número a sumar"
+			Lee Num
+			Mientras (Cantidad>=0)
+				Suma= Suma+Num
+			 	Cont=Cont++
+			Fin Mientras
+	Fin
+
+
+
+
+
+
+
+
+
+
+
+		
+			
