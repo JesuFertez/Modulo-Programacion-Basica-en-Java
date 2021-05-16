@@ -1,30 +1,55 @@
 Algoritmos - Pseudocódigo y Diagramas de flujo.
 
-1.Ganancia obtenida por la Uva.
-Algoritmo A_cuanto_la_uva
-	Definir Kilo, PIN, OPA, Ganancia, OP, Total Como Entero 
-	Escribir "Ingrese precio inicial e ingrese Kilos"
-	Leer PIN,Kilo
-	Escribir “Seleccione Tipo A=1 B=2”
-	Leer OP;
-	Según OP Hacer
-	1:
-		Escribir "Seleccione Tamaño 1/2” 
-		Leer OPA
-		Si OPA==1 Entonces
-			Total = PIN+20 
+1.Algoritmo Modista
+	Definir Num Como Entero
+	Definir Convertido Como Real
+	Escribir "Ingrese cantidad de metros"
+	Leer Num
+	Convertido=(Num*39.370)
+	Escribir "La cantidad de Metros ingresada corresponde a:",Convertido, " pulgadas."
+	FinAlgoritmo
+
+
+2. Algoritmo Libreria 
+	Definir Cant,Total Como Entero
+	Escribir "Ingrese Cantidad de Lápices"
+	Leer  Cant
+	Si (Cant>=1000)
+		Total=(Cant*85)
+	SiNo 
+		Total=(Cant*90)
+	Fin Si
+	Escribir  "Para ", Cant, " lápices el valor total es: " ,Total
+	FinAlgoritmo
+
+
+3. Algoritmo Banquete
+	Definir CantP Como Entero
+	Escribir "Ingrese Cantidad de Personas"
+	Leer CantP
+	Si (CantP<200) Entonces
+		CantP = (CantP*9500)
+		SiNo Si (CantP>200 Y CantP<=300) Entonces
+			CantP = (CantP*8500)
 		SiNo
-			Total =PIN+30 FinSi
-	2:
-		Escribir “Seleccione Tamaño 1/2” 
-		Leer OPA
-		Si OPA==2 Entonces
-			Total =PIN-30 
-		SiNo
-			Total =PIN-50 FinSi
-		De Otro Modo:
-		Escribir "Ingrese , 1 o 2 "
-		FinSegún
-		Ganancia = Total*Kilo
-Escribir "La ganancia obtenida es:",Ganancia
-FinAlgoritmo
+			CantP = (CantP*7500)	
+	FinSi
+	FinSi
+	Escribir "El valor Para la cantidad de personas ingresadas es:", CantP
+	FinAlgoritmo
+
+
+3.Algoritmo El_Harapiento_Distinguido
+	Definir Costo,Total Como Entero
+	Definir Descuento Como Real
+	Escribir "Ingrese valor de Prenda"
+	Leer Costo
+	Si (Costo > 250000)
+		Descuento = (Costo*0.15)
+		SiNo 
+			Descuento=(Costo*0.08)
+		Fin Si
+		Total=(Costo-Descuento)
+		Escribir "El precio de su compra es: " ,Costo " y el descuento asociado es de:" ,Descuento, " Su total a pagar es: ",Total
+	FinAlgoritmo
+
