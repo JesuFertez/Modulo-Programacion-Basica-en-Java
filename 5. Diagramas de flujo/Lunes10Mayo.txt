@@ -1,0 +1,30 @@
+Algoritmos - Pseudocódigo y Diagramas de flujo.
+
+1.Ganancia obtenida por la Uva.
+Algoritmo A_cuanto_la_uva
+	Definir Kilo, PIN, OPA, Ganancia, OP, Total Como Entero 
+	Escribir "Ingrese precio inicial e ingrese Kilos"
+	Leer PIN,Kilo
+	Escribir “Seleccione Tipo A=1 B=2”
+	Leer OP;
+	Según OP Hacer
+	1:
+		Escribir "Seleccione Tamaño 1/2” 
+		Leer OPA
+		Si OPA==1 Entonces
+			Total = PIN+20 
+		SiNo
+			Total =PIN+30 FinSi
+	2:
+		Escribir “Seleccione Tamaño 1/2” 
+		Leer OPA
+		Si OPA==2 Entonces
+			Total =PIN-30 
+		SiNo
+			Total =PIN-50 FinSi
+		De Otro Modo:
+		Escribir "Ingrese , 1 o 2 "
+		FinSegún
+		Ganancia = Total*Kilo
+Escribir "La ganancia obtenida es:",Ganancia
+FinAlgoritmo
