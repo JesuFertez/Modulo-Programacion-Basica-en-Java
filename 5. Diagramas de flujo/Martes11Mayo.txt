@@ -1,0 +1,127 @@
+	Algoritmos y Diagramas de flujo
+
+
+1.Ganancia obtenida por la Uva.
+
+Algoritmo A_cuanto_la_uva
+	Definir Kilo, PIN, OPA, Ganancia, OP, Total Como Entero 
+	Escribir "Ingrese precio inicial e ingrese Kilos"
+	Leer PIN,Kilo
+	Escribir “Seleccione Tipo A=1 B=2”
+	Leer OP;
+	Según OP Hacer
+	1:
+		Escribir "Seleccione Tamaño 1/2” 
+		Leer OPA
+		Si OPA==1 Entonces
+			Total = PIN+20 
+		SiNo
+			Total =PIN+30 FinSi
+	2:
+		Escribir “Seleccione Tamaño 1/2” 
+		Leer OPA
+		Si OPA==2 Entonces
+			Total =PIN-30 
+		SiNo
+			Total =PIN-50 FinSi
+	De Otro Modo:
+		Escribir "Ingrese , 1 o 2 "
+	FinSegún
+	Ganancia = Total*Kilo
+	Escribir "La ganancia obtenida es:",Ganancia
+FinAlgoritmo
+
+
+2.Viaje de estudio
+Algoritmo Viaje_de_estudio
+	Definir Total, Cant,OP, CA Como Entero
+	Escribir "Ingrese una Opción según cantidad de Alumnos, OP1=(-30), OP2=(30-49) OP3=(50-99) OP4=(+100)” 
+	Leer OP
+	Segun OP
+		1:
+			Escribir "Ingrese Cantidad de alumnos"
+			Leer Cant
+			Total=400000
+		2:
+			Escribir "Ingrese Cantidad de alumnos"
+			Leer Cant
+			Total= Cant*9500
+		3:
+			Escribir "Ingrese Cantidad de alumnos"
+			Leer Cant
+			Total= Cant*7000
+
+		4:	Escribir "Ingrese Cantidad de alumnos"
+			Leer Cant
+			Total= Cant*6500 De Otro Modo:
+			Escribir "Ingrese una opción válida"
+		FinSegun
+		CA= Total/Cant
+	Escribir " El Total del viaje es: " Total " y el total por alumno es:" ,CA 
+FinAlgoritmo
+
+
+3.Costo Llamada por Chismefón
+Algoritmo Cuanto_dura_la_llamada 
+	Definir OP, Min Como ENTERO
+	Definir Total Como Real
+	DEFINIR P, Horario Como CARACTER
+		Escribir "Ingrese cuanto dura la llamada 1= 1-5 Min, 2 = 5-8 Min, 3=8-10 Min, 4= +10" 
+		Leer OP;
+		Según OP HACER
+		1:
+			Escribir "Ingrese Minutos";
+			Leer Min; Total=(Min*100);
+		2:
+			Escribir "Ingrese Minutos";
+			Leer Min;
+			Total=(5*100) + ((Min-5) * 80);
+		3:
+			Escribir "Ingrese Minutos";
+			Leer Min;
+			Total=(5*100) + (3*80) + ((Min-8)*70);
+		4:
+			Escribir "Ingrese Minutos";
+			Leer Min;
+			Total=(5*100) + (3*80) + (2*70) + ((Min-10) *50);
+
+		De Otro Modo:
+			Escribir "Ingrese una Cantidad válida"
+		FinSegún
+		Escribir "¿Domingo? V,F "
+			Leer P
+			Si P="V" Entonces
+				Total=Total*1.03; Finsi
+	Escribir " ¿Horario Diurno o Vespertino? D/V" Leer Horario;
+	Si Horario ="D" Entonces 
+		Total=Total*1.15;
+	SiNo
+		Total=Total*1.10; 
+	Fin Si
+	Escribir "El total por la llamada es de:" ,Total
+FinAlgoritmo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+Algoritmos y Diagramas de flujo
+
+1. Compañía de viajes 
+Algoritmo Compañía_de_viajes
+	Definir CP, KM, TotalC,Costo,OP Como Entero
+	Escribir "Ingrese Cantidad de personas"
+	Leer CP
+	Escribir "Ingrese selección de Vehículo A=1,B=2,C=3"
+	Leer OP
+	Según OP;
+		1: 	Si CP>20 Entonces
+				Costo=CP*300
+			SiNo
+				Costo=CP*300
+			Fin Si
+				
+		2:	Si CP>20 Entonces
+				Costo=(CP*250)
+			SiNo
+				Costo=(20*250) /CP
+			Fin Si
+		3: 	Si CP>20 Entonces
+				Costo=(CP*200)
+			SiNo
+				Costo=(20*200)/CP
+			Fin Si
+		De Otro Modo:
+			Escribir "Ingrese un número según la opción"
+	FinSegún
+	Escribir  "Ingrese Kilómetros"
+		Leer  KM
+		TotalC=(Costo*KM ) 
+	Escribir  "El costo total del viaje es:" ,TotalC 
+	Escribir  "El costo por persona es:" Costo	
+FinAlgoritmo
+
+
+2. El náufrago satisfecho 
+
+Algoritmo El_naufrago_satisfecho
+	Definir Cant, OP Como Entero
+	Definir Total, v Como Real
+	Definir T Como Caracter
+	Escribir "Ingrese cantidad"
+	Leer Cant
+	Escribir "¿Simple, Doble o Triple? S=1,D=2,T=3"
+	Leer OP
+	Segun OP  Hacer
+		1:
+			v = (Cant*2000)
+		2:
+			v = Cant*2500
+		3:
+			v = Cant*2800
+	FinSegun
+	Escribir "Con Tarjeta S/N"
+	Leer T
+	Si T<>N Entonces
+		Total=( v*1.05)
+	FinSi
+	Escribir "Su total a pagar es: ",Total
+FinAlgoritmo
+
+
+3. Consulta de Lorenzo T. Mata Lozano
+
+Algoritmo Consulta_Dr_Lorenzo
+	Definir cant, Valor, Cita, Costo Como Entero
+	Escribir "Ingrese número de cita"
+	Leer Cita
+	Si Cita <= 3
+		Valor= Cita*200
+		Costo=200
+	FinSi
+	Si Cita >3 y Cita<5 Entonces
+		Valor= (3*200)+ ((Cant-3)*150)
+		Costo=150
+		SiNo 
+			Si Cita>5 Y Cita<8 Entonces
+				Valor= (3*200)+ (2*150)+((Cita-5)*100)
+				Costo=100
+			SiNo
+				Valor= (3*200)+(2*150)+(3*100) + ((Cita-8)*50)
+				Costo=50
+			Fin Si
+		FinSi
+	Escribir "El Valor de su cita es" , Costo, " y el total del tratamiento a sido ", Valor
+		
+FinAlgoritmo
+
+

@@ -1,0 +1,203 @@
+Java primera clase.
+
+Ejercicios Viernes 14 de Mayo.
+
+	
+	1. Hola mundo.java.
+
+
+package javaapplication3;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+        System.out.println("Hola Mundo");
+        // Primer programa Hola Mundo 
+    }
+    
+}
+
+
+	
+	2. Ingreso de variables. 
+
+
+package javaapplication3;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+       
+        // Ingreso de variables 
+        
+        byte num5;
+        num5=127; 
+        System.out.println("el valor máximo de byte es 127" +num5);
+        
+        int num1;
+        num1=12;  
+        System.out.println("el valor de int num1 es " +num1);
+        
+        long num2;
+        num2=125000;
+        System.out.println("El valor de long num2 es  " +num2);
+        
+        float num3;
+        num3=32000.55f;
+        System.out.println("el valor asignado a flotante esta ves fue " +num3);
+        
+        short num4;
+        num4= 32767;
+        System.out.println("el valor de éste short es " +num4);   
+                
+    }
+    
+}	
+
+	
+	3. Operaciones básicas.
+
+
+package javaapplication3;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+       
+        // Operaciones...
+      short A=5;
+      short B=87;
+      int suma;
+      suma=A+B;
+        System.out.println("El resultado de la suma de estas 2 variables es " +suma);
+        
+      int C=5, D=9, Res;
+      Res= (C*D);
+        System.out.println(" Este es el resultado de dos variables multiplicadas " +Res);
+            
+    }
+    
+}
+
+	
+	4. Promedio
+
+
+package javaapplication3;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+       
+        // Calculemos el Promedio de 3 Notas...
+
+float A=60;
+float B=50;
+float C=45;
+float Suma;
+
+Suma= (A+B+C) / 3; 
+ 
+        System.out.println("El promedio de notas es "+Suma);
+            
+    }
+    
+}
+
+
+	5. Clase Scanner.
+
+
+package javaapplication3;
+
+import java.util.Scanner;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+       
+        // Clase Scanner
+
+Scanner leer= new Scanner (System.in);
+
+		short A;
+    	short B;
+    	int suma;
+        System.out.println("Ingrese un valor a sumar");
+        A = leer.nextShort();
+        System.out.println("Ingrese un segundo valor");
+        B = leer.nextShort();
+      suma=A+B;
+        System.out.println("El resultado de la suma es "+suma);
+
+   }
+    
+}
+
+	
+	6. Promedio con Scanner.
+
+
+package javaapplication3;
+
+import java.util.Scanner;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+       
+   // Clase Scanner
+Scanner leer= new Scanner (System.in);
+        // Calculemos el Promedio de 3 Notas...
+
+float A;
+float B;
+float C;
+float Suma;
+
+        System.out.println("Ingrese la primera nota");
+        A=leer.nextFloat();
+        System.out.println("Ingrese una segunda nota");
+        B=leer.nextFloat();
+        System.out.println("Ingrese la tercera nota ");
+        C=leer.nextFloat();
+        
+        Suma= (A+B+C) / 3; 
+        System.out.println("El promedio de las 3 notas es "+Suma);
+
+    }
+    
+}
+	
+
+	7. Intercambio de variables.
+
+package javaapplication3;
+
+import java.util.Scanner;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+       
+   // Clase Scanner
+Scanner leer= new Scanner (System.in);
+        // Intercambio de Variables
+
+int A;
+int B;
+int Cambio;
+        System.out.println("Ingresa valor para A"); 
+        A=leer.nextInt();
+        System.out.println("Ingresa valor para B");
+        B=leer.nextInt();
+	Cambio = A;
+	A = B;
+	B = Cambio; 
+        System.out.println("El nuevo valor para A es: " +A+ " y el nuevo valor para B es: " +B);
+
+    }
+    
+}
+
+

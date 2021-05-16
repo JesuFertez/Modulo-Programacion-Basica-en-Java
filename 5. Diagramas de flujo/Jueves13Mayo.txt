@@ -1,0 +1,66 @@
+Algoritmos y diagramas de flujo
+
+1. Fabrica “El cometa”
+Algoritmo El_cometa
+	Definir MP,GF,MO,PV,Clave Como Entero
+Escribir "Ingrese Costo Materia Prima y clave"
+	Leer MP
+	Leer Clave
+	Según Clave  Hacer
+		1:
+			MO = MP*0.80
+			GF = MP*0.28
+		2:
+			MO = MP*0.85
+			GF = MP*0.30
+		3:
+			MO = MP*0.75
+			GF = MP*0.35
+		4:
+			MO = MP*0.75
+			GF = MP*0.28
+		5:
+			MO = MP*0.80
+			GF = MP*0.30
+		6:
+			MO = MP*0.85
+			GF = MP*0.35
+		De Otro Modo:
+			Escribir “Ingrese una Clave válida”
+	FinSegún
+	CP = MP+MO+GF
+	PV = CP*1.45
+	Escribir 'EL Costo de producción es',CP,' y el precio de venta es:’,PV
+FinAlgoritmo
+
+
+2. Promedio de edades
+Algoritmo Promedio_de_edades
+	Definir Suma, Cant, Promedio Como Entero
+	i=1 
+	Escribir "Ingrese una cantidad de edades a promediar"
+	Leer Cant
+	Mientras i<=Cant
+		Escribir "Ingrese una edad"
+		Leer Edad
+		Suma=Suma+Edad
+		i=i+1
+	FinMientras
+		Promedio= Suma/Cant
+	Escribir "El Promedio de edades ingresadas es" Promedio
+	FinAlgoritmo
+
+
+3. Ahorro anual
+Algoritmo Ahorro_Anual
+	Definir i,Suma,Ahorro Como Entero
+	i = 0
+	Repetir
+		Escribir “Ingrese Ahorro Mensual”
+		Leer Ahorro
+		Suma =Ahorro+Suma
+		Escribir “Su total de ahorro a la fecha es ” , Suma
+		i = i+1
+	Hasta Que (i=12)
+FinAlgoritmo
+
