@@ -1,0 +1,8 @@
+								Martes 11 de Mayo
+Comentarios
+	- He estado trabajando en mis algoritmos probando con pseint, me cuesta un poco la sintaxis del programa, pero es por que aún no la conozco, he buscado en internet un poco de referencias de cómo expresar mis algoritmos con el programa.
+	- He estado leyendo un poco el libro "Java para novatos" cada vez que lo leo toma más sentido, sigo leyendo el libro de algoritmos y sigo viendo videos en YouTube, la verdad se puede encontrar de todo tipo de programación allí, desde cosas más básicas a complejas.
+	- Estudio cada vez que puedo, en mis tiempos libres, entre quehaceres, durante la noche, estoy tomando gusto por los algoritmos y el diagrama de flujo, se va poniendo interesante la cosa a medida que avanza en complejidad, me gustan los desafíos.  
+	
+
+	

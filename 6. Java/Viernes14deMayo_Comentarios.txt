@@ -1,0 +1,12 @@
+								Viernes 14 de Mayo 
+
+22:30 Viernes // investigo sobre el uso de Netbeans
+No pude seguir muy bien el hilo de la clase por que no tengo la misma versión y me perdí un poco, pues al comienzo hay que escoger que tipo de proyecto crearemos, y me perdí en las configuraciones, traté de instalar la versión 8.2 pero me arrojó error al instalar, así que descargue la ultima versión, no se si fue la mejor opción, pero funciona…
+Buscando info sobre el uso de Netbeans encontré esta página.
+
+https://dcodingames.com/guia-basica-para-usar-netbeans/
+
+Sábado// No hay clases hoy, pero sigo aprendiendo, terminé los ejercicios que no pude hacer ayer, sigo viendo y reforzando con Youtube, sobre netbeans y el uso con Java, hay tanta información que me mareo un poco, se irá aclarando a medida que avancemos en la clase. 
+
+Estoy muy entusiasmada aún con el curso, espero poder tomar otro para complementar cuando acabe este, hay tanto por aprender y un mundo por explorar!
+
