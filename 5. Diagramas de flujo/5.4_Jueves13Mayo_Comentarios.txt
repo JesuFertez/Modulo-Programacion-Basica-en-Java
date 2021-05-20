@@ -7,7 +7,14 @@ que me quedaron pendientes, aclaro que quedan pendientes sólo por que me gusta 
 Pseint es un programa buenísimo, que me permite comprobar si funciona, dependiendo de eso, crea el
 diagrama y puedo “ejecutar” o más bien probar el código. Es una satisfacción enorme el ver qué funciona.
 
-	Anterior a la clase y ahora siendo las 00:58 del viernes, leo el Libro recomendado sobre algoritmos y diagramas de flujo, aún lo estoy ojeando, tristemente trate de exponer mis resultados de ejercicios en la clase, fue un espanto, los nervios y el no saber como (era mi primera vez compartiendo) causaron “mi gran bochorno” mis disculpas, tuve un mal día y claramente no mejoró, pero bueno nadie se murió, lo volveré a intentar cuando pueda! Espero no arruinarlo esta vez. 
+	Anterior a la clase y ahora siendo las 00:58 del viernes, leo el Libro recomendado sobre algoritmos
+ y diagramas de flujo, aún lo estoy ojeando, tristemente trate de exponer mis resultados de ejercicios en la
+ clase, fue un espanto, los nervios y el no saber como (era mi primera vez compartiendo) causaron “mi gran
+ bochorno” mis disculpas, tuve un mal día y claramente no mejoró, pero bueno nadie se murió, lo volveré a
+ intentar cuando pueda! Espero no arruinarlo esta vez. 
 	
-	Noté que muchos de los ejercicios vistos en clase están en este libro, así que eso me anima más a leerlo, estoy bastante satisfecha con el resultado de mis algoritmos, debo reconocer que la primera semana no lograba comprender mucho, pero busque videos, repase las clases y el fin de semana estuve estudiando muchísimo, debo decir con agrado que rindió frutos. 
+	Noté que muchos de los ejercicios vistos en clase están en este libro, así que eso me anima más a
+ leerlo, estoy bastante satisfecha con el resultado de mis algoritmos, debo reconocer que la primera semana
+ no lograba comprender mucho, pero busque videos, repase las clases y el fin de semana estuve estudiando
+ muchísimo, debo decir con agrado que rindió frutos. 
 
