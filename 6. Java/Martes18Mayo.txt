@@ -1,0 +1,98 @@
+Ejercicios Martes 18
+
+1.- El mayor de tres números ingresados.
+
+package martes18mayo;
+
+import java.util.Scanner;
+
+public class Martes18Mayo {
+
+    
+    public static void main(String[] args) {
+        // Determinar el mayor de 3 números ingresados 
+        Scanner leer=new Scanner(System.in);
+        
+        int n1, n2, n3;
+        System.out.println("Ingresa un número");
+        n1=leer.nextInt();
+        System.out.println("Ingresa un segundo número");
+         n2=leer.nextInt();
+         System.out.println("Ingresa un tercer número");
+         n3=leer.nextInt();
+         
+        if (n1>n2 && n1>n3) {
+            System.out.println("El número mayor es " +n1);
+        } else 
+                if(n2>n1 && n2>n3) {
+            System.out.println("El número mayor es " +n2);
+                } else 
+                     if (n3>n1 && n3>n2) {
+                       System.out.println("El número mayor es " +n3);           
+        }
+    }
+    
+}
+
+2.- Chismefón 
+
+package javaapplication6;
+import java.util.Scanner;
+public class JavaApplication6 {
+
+
+    public static void main(String[] args) {
+        // Costo de llamada por Chismefón 
+        
+        Scanner leer=new Scanner(System.in);
+        int OP, Min;
+       float Total=1f;
+        String  P, Horario;
+		      System.out.println("Ingrese cuanto dura la llamada 1= 1-5 Min, 2 = 5-8 Min, 3=8-10 Min, 4= +10");
+                      OP=leer.nextInt();
+		switch (OP) 
+                {
+                    case 1:
+                        System.out.println("Ingrese Minutos"); 
+			Min=leer.nextInt(); Total =(Min*100);
+                    break;
+                    
+                    case 2:
+			System.out.println("Ingrese Minutos");
+			Min=leer.nextInt();
+			Total =(5*100) + ((Min-5) * 80);
+                    break;
+                    
+                    case 3:
+                        System.out.println("Ingrese Minutos");
+			Min=leer.nextInt();
+			Total =(5*100) + (3*80) + ((Min-8)*70);
+                    break;
+                    
+                    case 4:
+			System.out.println("Ingrese Minutos");
+			Min=leer.nextInt();
+			Total =(5*100) + (3*80) + (2*70) + ((Min-10) *50);
+                    break;
+
+                    default:
+			System.out.println("Ingrese una Cantidad válida"); 
+                    break;
+                    
+                }
+        System.out.println("Domingo? V,F");
+	 P=leer.next(); 
+	if (P=="V") {
+		Total=( Total *1.03f); }
+                        
+	System.out.println("¿Horario Diurno o Vespertino? D/V");
+	 Horario=leer.next();
+        if (Horario =="D") {
+		Total=( Total *1.15f);
+        } else {
+		Total=( Total *1.10f); 
+        }
+	       System.out.println("El total por la llamada es de " +Total);
+    }
+    
+}

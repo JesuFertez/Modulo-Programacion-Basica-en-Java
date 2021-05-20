@@ -1,0 +1,120 @@
+										Lunes 17 de Mayo 
+Elabore 3 ejercicios usando las condicionales if / else.
+
+
+1.- Ejercicio trabajado en clases valor acorde a cantidad de lápices
+
+package javaapplication3;
+
+import java.util.Scanner;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+       
+   // Clase Scanner
+Scanner leer= new Scanner (System.in);
+       
+	 // Ejercicios con if y else
+  
+       int Cant,Total;
+	       System.out.println("Ingrese cantidad de lápices");
+	Cant=leer.nextInt();
+	if (Cant>=1000) {
+		Total = (Cant*85);}
+        else
+                {Total =(Cant*90);}
+	
+	       System.out.println("Para " +Cant+ " de lápices el valor es " +Total); 
+
+ }
+    
+}
+
+
+2.- Preguntas y respuestas básicas
+
+import java.util.Scanner;
+
+public class JavaApplication3 {
+
+    public static void main(String[] args) {
+       
+   // Clase Scanner
+Scanner leer= new Scanner (System.in);
+        // Ejercicios con if y else
+     
+     
+      String pregunta1= "Te gusta el cafe? S/N";
+      String respuesta1= "S";
+      String p2= " y los libros? S/N";
+      String resp2= "S";
+        System.out.println("Hola "+pregunta1);
+      
+      
+      String rl=leer.nextLine();
+        if (rl.equalsIgnoreCase (respuesta1)){
+            System.out.println("A mi también ;)"); 
+        }
+        else {System.out.println("A mí tampoco, guácala!!");
+        }
+        
+        System.out.println(""+p2); 
+        rl=leer.nextLine();
+        
+        if (rl.equalsIgnoreCase (resp2)){
+            System.out.println("Genial a mi también");}
+        else {
+            System.out.println(" Pues, tu te lo pierdes");}
+     
+    }
+    
+}
+
+
+
+3.-Juego de los Dados 
+
+package javaapplication4;
+import java.util.Random;
+import java.util.Scanner;
+
+public class JavaApplication4 {
+
+    public static void main(String[] args) {
+       
+ // Juego Dado // No gané ni una vez ;(
+       
+       Random tira=new Random();
+       int d1=tira.nextInt(5)+1;
+       int d2=tira.nextInt(5)+1;
+       int d3=tira.nextInt(5)+1;
+       
+	System.out.println("Dado1= "+d1);
+        System.out.println("Dado2= "+d2);
+        System.out.println("Dado3= "+d3);
+       
+ 	if	(d1==6 && d2==6 && d3==6) {
+            	System.out.println("Exelente");
+        }
+        else {
+            if  ( (d1==6 && d2==6) || (d1==6 && d3==6) || (d2==6 && d3==6)    ) {
+                System.out.println("Muy Bien");
+            }
+            else {
+                 if  (d1==6 || d2==6 || d3==6) {
+                     System.out.println("Regular");
+                 }
+                 else {
+                        if (d1!=6 && d2!=6 && d3!=6){
+                            System.out.println("Pésimo");
+                        }
+                 }
+            }
+        }
+    
+    }
+    
+}
+
+

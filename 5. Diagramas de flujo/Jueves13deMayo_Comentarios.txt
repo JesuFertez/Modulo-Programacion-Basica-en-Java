@@ -2,7 +2,10 @@
 
 Comentarios
 
-	 Hoy durante la tarde estuve trabajando en los problemas de Algoritmos y Diagramas de flujo que me quedaron pendientes, aclaro que quedan pendientes sólo por que me gusta comprobar que funcionan, Pseint es un programa buenísimo, que me permite comprobar si funciona, dependiendo de eso, crea el diagrama y puedo “ejecutar” o más bien probar el código. Es una satisfacción enorme el ver qué funciona.
+	 Hoy durante la tarde estuve trabajando en los problemas de Algoritmos y Diagramas de flujo
+que me quedaron pendientes, aclaro que quedan pendientes sólo por que me gusta comprobar que funcionan,
+Pseint es un programa buenísimo, que me permite comprobar si funciona, dependiendo de eso, crea el
+diagrama y puedo “ejecutar” o más bien probar el código. Es una satisfacción enorme el ver qué funciona.
 
 	Anterior a la clase y ahora siendo las 00:58 del viernes, leo el Libro recomendado sobre algoritmos y diagramas de flujo, aún lo estoy ojeando, tristemente trate de exponer mis resultados de ejercicios en la clase, fue un espanto, los nervios y el no saber como (era mi primera vez compartiendo) causaron “mi gran bochorno” mis disculpas, tuve un mal día y claramente no mejoró, pero bueno nadie se murió, lo volveré a intentar cuando pueda! Espero no arruinarlo esta vez. 
 	
