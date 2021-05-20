@@ -5,4 +5,10 @@ Hoy Lunes estuve viendo un par de videos en Youtube.
 
 https://youtu.be/VCVA83KsK-M
 
-En clases se repasó lo visto el día viernes, y luego trabajamos en las condicionales if else, hubo un par de compañeros que sobresalieron con sus ejercicios, Cristian por ejemplo, programó un "Cachipún" y un sorteo de número para rifa, estuvo bastante bueno, aunque si somos sinceros muchos de los que están en el curso ya tienen conocimientos previos por decirlo de algún modo, son "Javansados". Pero estoy decidida a no quedar atrás y por lo pronto, queda de tarea investigar sobre las Clases String, Math y Random.
+En clases se repasó lo visto el día viernes, y luego trabajamos en las condicionales
+ if else, hubo un par de compañeros que sobresalieron con sus ejercicios, Cristian
+ por ejemplo, programó un "Cachipún" y un sorteo de número para rifa, estuvo bastante
+ bueno, aunque si somos sinceros muchos de los que están en el curso ya tienen
+ conocimientos previos por decirlo de algún modo, son "Javansados". Pero estoy decidida
+ a no quedar atrás y por lo pronto, queda de tarea investigar sobre las Clases String,
+ Math y Random.
