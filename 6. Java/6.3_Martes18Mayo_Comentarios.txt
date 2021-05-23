@@ -1,0 +1,4 @@
+Hoy estuve viendo los videos de “Programador principiante” lo hago aún a modo de repaso y me sirve para complementar. 
+Ejemplo; necesitaba usar un boolean como respuesta a un ejercicio, pues en el video ví que uso  “leer.next();” 
+lo que me sirvió en mi ejercicio de “Chismefón” , también vi el uso de “Tolowercase” que convierte el texto ingresado
+a minúsculas. Leo a ratos “Java para novatos”.
