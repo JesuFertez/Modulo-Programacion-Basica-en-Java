@@ -1,0 +1,19 @@
+Lunes 24 de Mayo- Comentarios;
+
+	He estado leyendo el libro “Fundamentos de Programación” aveces me confunde un poco, 
+me adelanto para ver cosas más avanzadas, pero al adelantarme me doy cuenta que me salté cosas
+importantes, así que debo volver atrás, es un ir y venir entre páginas, pero hay información
+bastante interesante, entre ellas la línea tabulada, ej;
+	
+	system.out.println(“    1. \t\t palabra );
+
+	Lo cual es bastante útil al momento de mostrar opciones para un switch por ejemplo.
+
+ 	Estuve probando la clase Math, en especifico con Math.max y Math.min para mostrar el
+valor más grande o el más pequeño respectivamente, aunque me cae la duda de por qué se puede
+sólo con dos valores.
+	En clases tuve problemas con el último ejercicio, pues no podía volver a ejecutar el
+ciclo con do while , lo intenté con while también pero no me resultaba, a pesar de que estaba
+todo en orden, no pude entender el por qué, así que preferí probar y cambiar la comparación,
+pasé de While (seguir == “S”) a while (“S”.equals(seguir)) como dije, aún no entiendo por que
+me funcionó con uno y no con el otro, en fin, el punto es que funciona. 

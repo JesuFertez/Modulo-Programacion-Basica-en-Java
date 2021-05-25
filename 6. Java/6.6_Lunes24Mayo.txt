@@ -1,0 +1,111 @@
+Ejercicios Lunes 24 de Mayo
+
+1.- El número de la suerte.
+
+package lunes24mayo;
+import java.util.Scanner;
+
+public class Lunes24Mayo {
+
+    public static void main(String[] args) {
+        // Programa número de la suerte.
+       
+ Scanner leer=new Scanner (System.in);
+        int dia, Mes, año, suma, sumdig=0;
+    System.out.println("Ingrese su fecha de nacimiento día Mes y año");
+    dia=leer.nextInt();
+    Mes=leer.nextInt();
+    año=leer.nextInt();
+    suma=dia+Mes+año;
+    
+    while(suma != 0){
+    sumdig=sumdig+(suma % 10);
+    suma=suma/10; 
+    }
+        System.out.println("Tu número de la suerte es " +sumdig);
+    }
+    
+}
+
+
+2.- La Hora válida, formato de 24 Horas.
+
+package lunes24mayo;
+import java.util.Scanner;
+
+public class Lunes24Mayo {
+
+    public static void main(String[] args) {
+        // Dígame la Hora.
+        Scanner leer=new Scanner (System.in);
+ int H,M,S;
+        System.out.println("me dices que hora es? H, M, S " );
+        H=leer.nextInt();
+        M=leer.nextInt();
+        S=leer.nextInt();
+      
+  if (H<=24 && H>=0  && M>=0 && M<=60 && S>=0 && S<=60)  {
+        System.out.println(" Gracias ;* "+ H + ":" + M + ":" + S ) ;
+        
+        }else{ System.out.println("Me darias una hora válida? Por favor, formato 24 hrs ");
+    }
+        
+    
+    }
+    
+}
+
+3.- La calculadora.
+
+package lunes24mayo;
+import java.util.Scanner;
+
+public class Lunes24Mayo {
+
+   
+    public static void main(String[] args) {
+        // La calculadora.
+        Scanner leer=new Scanner (System.in);
+
+String seguir = "S"; 
+        String op ;
+        int num1, num2, resul=0;
+while ( "S".equals(seguir)) {
+    
+    System.out.println("Ingresa dos números para empezar ");
+        num1=leer.nextInt();
+         num2=leer.nextInt();    
+         
+         System.out.println("Qué quieres hacer con ellos? \n+\n-\n/\n* ");
+        op=leer.next();
+         switch (op){
+             case "+":
+                    System.out.println("Seleccionaste suma");
+                    resul=num1+num2; 
+                 
+                    break;
+             case "-":
+                    System.out.println("Seleccionaste resta");
+                    resul=num1-num2; 
+                   
+                    break;
+             case "/":
+                    System.out.println("Seleccionaste dividir");
+                    resul=num1/num2; 
+                 
+                    break;
+             case "*":
+                    System.out.println("Seleccionaste multiplicación");
+                    resul=num1*num2; 
+                  
+                    break;       
+                   
+        } System.out.println("tu resultado es " +resul);  
+     
+        System.out.println("Quieres hacer otra operación? S/N");
+        
+        seguir=leer.next();  
+}
+    
+    }
+}  
