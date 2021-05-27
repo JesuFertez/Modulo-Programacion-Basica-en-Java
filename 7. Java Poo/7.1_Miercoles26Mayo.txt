@@ -1,0 +1,117 @@
+Ejercicio día Miércoles 26 de Mayo.
+
+1.- Crear tres clases con sus respectivos atributos, métodos y crear distintas instancias.
+	(Mostrar el progreso, trabajo continúa mañana)
+
+package poo;
+import java.util.Scanner;
+public class Poo {
+
+    
+    public static void main(String[] args) {
+        // Programa para administrar una biblioteca.
+        
+       Scanner leer=new Scanner(System.in);
+       byte op;
+       
+        System.out.println("Bienvenido a Ratón de Biblioteca \n\nPara empezar seleccione una opción\n");
+        System.out.println("1.-\tCrear un nuevo usuario\n2.-\tSolicitar Préstamo\n3.-\tIngresar devolución\n4.-\tIngresar un nuevo texto\n5.-\tDar de baja un texto");
+        op=leer.nextByte();
+        
+        switch (op) {
+            case 1: 
+                Usuario U1=new Usuario();
+                    System.out.println("Para crear un nuevo usuario, ingrese los siguientes datos");
+                    
+                    
+                    
+                break;
+                
+            case 2:
+                break;
+                
+            case 3:
+                break;   
+                
+            case 4:
+                break;    
+                
+            case 5:
+                break;   
+                
+                
+        }
+     
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+package poo;
+
+public class Usuario {
+   //Atributos
+    
+    String nombre;
+    String direccion;
+    int telefono;
+    int numUsuario;
+    int rut; 
+    String mail;
+    
+    //Métodos.
+    
+    int numPrestamo;
+    int faltas; // Si se pasó los días de devolución o en su efecto no devolvió un libro
+    String castigo;
+  
+}
+
+
+
+package poo;
+
+public class Prestamo {
+    
+   int numPrestamo;
+   int fecha;
+   int tiempoPrestamo;
+  
+}
+
+
+
+package poo;
+
+public class Libro {
+   // atributos
+    String nombre;
+    String autor;
+    String genero; 
+    String editorial;
+     int numIdentificador;
+     
+    // Métodos
+
+}
+
+
+
+package poo;
+
+public class Enciclopedia {
+    
+   String tipo; // Dinosaurios, idiomas, espacio, animales, historia, ciencias, cuerpo humano...., 
+   String idioma; // Esta en español , inglés, aleman....
+   int numIdentificador; //Número identificatorio, verifica disponibilidad. 
+   String ubicacion; //Espacio físico asignado, "donde buscarlo". 
+}

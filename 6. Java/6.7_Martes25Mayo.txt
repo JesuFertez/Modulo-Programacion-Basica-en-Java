@@ -1,0 +1,120 @@
+Ejercicios Martes 25 de Mayo
+
+1.- El cajero automático.
+
+package martes25mayo;
+import java.util.Scanner;
+
+public class Martes25Mayo {
+
+   
+    public static void main(String[] args) {
+        // El Cajero.
+      
+       Scanner leer=new Scanner(System.in);
+        int saldo=500000, abono, giro;
+      byte op;
+      String respuesta="S";
+    while ("S".equals(respuesta))  {
+        System.out.println("Ingrese su tarjeta\n");
+        System.out.println("ingrese operación \n\n 1.-\tConsulta de saldo\n 2.-\tRealizar Abono\n 3.-\tRealizar Giro\n");
+        op=leer.nextByte();
+        switch (op) {
+            case 1: 
+                System.out.println("Consulta de saldo\n Su saldo es " +saldo);
+                break;
+            case 2: 
+                System.out.println("Realizar abono \n ingrese Monto del abono " );
+                abono=leer.nextInt();
+                saldo+=abono;
+                System.out.println("Su saldo actual es "+saldo);
+                break;
+            
+            case 3:    
+               System.out.println("Realizar giro \n ingrese Monto del giro " );
+                giro=leer.nextInt();
+                if(giro>saldo){
+                    System.out.println("Su saldo es insuficiente, intente con un monto menor a su saldo \nSu saldo actual es " +saldo);
+                }else{
+                saldo-=giro;
+                System.out.println("Su saldo actual es "+saldo);
+                }
+                break; 
+                
+            default:
+                System.out.println("A ingresado una operación no válida");
+                break;
+    
+        }
+        System.out.println("Desea realizar otra operación S/N");
+        respuesta=leer.next();
+        if("N".equals(respuesta))
+            System.out.println("Su transacción a finalizado \nRetire su tarjeta");
+        }
+    }
+
+}
+
+
+2.-  Crear un arreglo de largo definido, ingresar los datos y mostrarlos por pantalla.
+
+package martes25mayo;
+import java.util.Scanner;
+
+public class Martes25Mayo {
+
+   
+    public static void main(String[] args) {
+        //Arreglos.
+      
+       Scanner leer=new Scanner(System.in);
+
+	int [] numeros=new int[5]; //Arreglo 
+    int suma=0, total;
+        
+	for (int i=0; i<5; i++ ){
+           System.out.println("Ingresa un valor");
+           numeros[i]=leer.nextInt();  
+	}
+    for (int i=0; i<5; i++) {
+            System.out.println("Nº " + numeros [i]);
+    } 
+  }
+}
+
+3.-  Crear un Arreglo, ingresar los datos y calcular la suma de los valores ingresados.
+
+package martes25mayo;
+import java.util.Scanner;
+
+public class Martes25Mayo {
+
+   
+    public static void main(String[] args) {
+        //Arreglos.
+      
+       Scanner leer=new Scanner(System.in);
+
+int [] numeros=new int[5]; //Arreglo 
+    int suma=0, total;
+        
+	for (int i=0; i<5; i++ ){
+           System.out.println("Ingresa un valor");
+           numeros[i]=leer.nextInt();  
+    }
+        
+	for (int i=0; i<5; i++) {
+            System.out.println("Nº " + numeros [i]);
+    } 
+		
+	for (int i=0; i<5; i++) {
+       	suma+=numeros [i];  //Declarar el total dentro del for muestra la suma paso por paso     
+    }   
+        
+    total= suma; // Declarar el total fuera del for, muestra la suma total
+         System.out.println("la suma de ellos es" + total);
+    }
+}
+
+
+  
