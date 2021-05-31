@@ -1,0 +1,12 @@
+Viernes 29 de Mayo.
+
+	La cosa va aclarando ya, se ve salir el sol, la clase estuvo muy buena, se ven avances y mi
+código mejora, puedo relacionar las clases con el main, con mejores resultados, se va notando avance,
+implementé el JOptionPane, sólo una vez hasta ahora, no es que no pueda hacerlo de nuevo, es sólo que
+tendría que construir todo de nuevo, y es un poco melancólico hacer eso después de tres o cuatro días
+de frustraciones y avances, será dejar este ejercicio así y en el próximo implementar la interfaz
+gráfica, siento que descubrí el fuego, todo está resultando, disfrutaré este momento hasta que pasen
+algo nuevo y otra vez caer en la oscuridad y el drama.
+	Estoy muy entusiasmada aun con el curso, quizás me obsesioné un poco con el tema de programar,
+pienso más de lo que debería en esto y en la idea de sentarme a escribir unas líneas de código, probar
+cosas nuevas y ver qué resulta.

@@ -1,0 +1,10 @@
+Jueves 27 de Mayo
+	
+	La clase se ha tornado un poco difícil, la incorporación de las clases y los objetos aún es
+un poco confusa, no la idea de ello en si, eso se puede entender, es más bien la interacción, el como
+llamarlas, el como hacer que funcionen lo que me complica un poco, el que hacer y donde, avanzó en el
+ejercicio, medio a ciegas, a prueba y error, mientras me familiarizo con el tema, sigo con mis libros
+y los videos de programador novato, son bastante aclaratorios, y como son cortos, puedo ver muchos en
+poco tiempo.
+	
+	

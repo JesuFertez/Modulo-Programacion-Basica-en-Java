@@ -1,11 +1,13 @@
 Comentarios Miércoles 26 de Mayo.
 
-	Durante la tarde estuve viendo entre mis tiempos libres, videos sobre Arreglos, para reforzar los conocimientos. Con respecto al tema de
-los “Algoritmos de Ordenamiento y búsqueda” entiendo lo que hacen y cómo funcionan, pero no entiendo la sintaxis del planteamiento, me
-quedará seguir buscando una explicación más clara.
- 	En clases se comenzó a hablar de POO, vimos definiciones de clases y objetos, se empezó un ejercicio para poner en práctica lo aprendido,
-con el que seguiremos mañana. Esta tomando mayor dificultad el curso, lo cual es bastante motivador. 
-Mientras tanto sigo con mis libros.
+	Durante la tarde estuve viendo entre mis tiempos libres, videos sobre Arreglos,
+para reforzar los conocimientos. Con respecto al tema de los “Algoritmos de Ordenamiento
+y búsqueda” entiendo lo que hacen y cómo funcionan, pero no entiendo la sintaxis del
+planteamiento, me quedará seguir buscando una explicación más clara.
+ 	En clases se comenzó a hablar de POO, vimos definiciones de clases y objetos, se
+empezó un ejercicio para poner en práctica lo aprendido, con el que seguiremos mañana. 
+	Esta tomando mayor dificultad el curso, lo cual es bastante motivador. 
+	Mientras tanto sigo con mis libros.
 “Java para novatos”
 “Introducción a la programación orientada a objetos”
 “Fundamentos de Programación”
