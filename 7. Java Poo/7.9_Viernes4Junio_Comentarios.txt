@@ -1,0 +1,12 @@
+Viernes 4 de Junio.
+Como dije en el comentario pasado, nos quedamos el día Jueves después de clases, Claudio Blanco
+ha sido de gran ayuda, nos ayuda a ver en que estamos fallando y nos muestra maneras de
+solucionarlo, discutimos de los Arrays y la forma óptima de implementarlos, me ayudo bastante
+comprender como funciona, para poder corregir mi código, estoy bastante satisfecha con los
+resultados, ahora me falta aprender lo de manejo de errores, para mejorar aún más mis programas,
+pude terminar mi cuenta bancaria, con buenos resultados, sé que puedo mejorar más aún, pues estoy
+recién empezando. 
+	Sigo con mis libros, encontré algo interesante sobre los Arrays, puedes almacenar variables
+dentro de renglones y columnas, vi un ejercicio muy interesante en el cual le introducían datos
+cual excel, mediante un ciclo for, y un Random. Se le llama Arreglo bidimensional, seguiré leyendo
+sobre los Arrays, se ven muy prácticos y útiles. 

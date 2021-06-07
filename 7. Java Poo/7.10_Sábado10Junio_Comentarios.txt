@@ -1,0 +1,12 @@
+Sábado 10 Junio.
+Hoy se terminó el ejercicio que se comenzó ayer, de la clase libro, me quedo bastante bueno, debo
+agradecer a Claudio nuevamente que se dio el tiempo anoche de explicarnos las dudas de sintaxis que 
+teníamos, es bastante buena la instancia que se da después de clases con los alumnos, nos permite
+comentar sobre los temas de la clase y al debatirlo lo podemos comprender mejor.
+	Empecé a investigar la herencia y el polimorfismo, que son los temas que veremos esta semana qué
+entra, para tener una base ,así que voy medianamente preparada.
+	He visto muchos videos interesantes en Programador novato, y aún me quedan unos cuantos más por
+ver, como la búsqueda binaria, secuencial y burbuja mejorada, apenas pueda le echo un ojito, me han
+servido muchísimo sus videos.
+
+      
