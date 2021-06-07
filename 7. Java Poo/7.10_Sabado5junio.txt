@@ -1,0 +1,178 @@
+package sab5juniolibro;
+import java.lang.reflect.Array;
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Sab5JunioLibro {
+ 
+    
+    public static void main(String[] args) {
+       
+        String nombre,autor,continuar;
+        int numEj,numDis;
+         ArrayList <Libro> listalibro=new ArrayList <Libro>();
+        int num,pres,cant,dev,cod;
+              
+        listalibro.add(new Libro ("Manual para lavarse la carita","Pinpon",5,5,234));
+        listalibro.add(new Libro("Como coser un botón","La muñeca de trapo",6,3,567));
+        listalibro.add(new Libro("Hornee a su novia","El hombre de gengibre",3,0,678));
+        listalibro.add(new Libro("Mejor afuera que adentro","Shrek",10,8,912));
+        listalibro.add(new Libro("Hágase rico","Rico Mac Pato",4,2,891));
+ 
+        Scanner leer=new Scanner(System.in);
+        int op;
+    do{    
+        System.out.println("===Capsule Corp Library===");
+        System.out.println("\tBienvenido\nIngrese una opción");
+        System.out.println("1.-\tSolicitar préstamo\n2.-\tIngresar devolución\n3.-\tVerificar disponibilidad");
+        op=leer.nextInt();
+   
+        switch (op){
+        case 1: System.out.println("Estos son los ejemplares de la Biblioteca");
+            for(int i=0; i<5; i++){
+                System.out.println(i+".- " +listalibro.get(i).getnombre()+ " //  Autor:  "+listalibro.get(i).getautor());  
+             }   
+                System.out.println("Ingrese el numero del ejemplar a solicitar");
+                pres=leer.nextInt();//número de la lista que corresponde al ejemplar a solicitar
+                System.out.println("Ingrese la cantidad de ejemplares");
+                cant=leer.nextInt();//cantidad de ejemplares
+                listalibro.get(pres).prestamo(cant);//llamo a array listalibro y le doy el numero de la lista (pres), llamo al método préstamo y le asigno la cantidad de ejemplares (cant) 
+              
+            break;
+        case 2:
+            System.out.println("Que libro desea devolver ");
+            for(int i=0; i<5; i++){
+                System.out.println(i+".- " +listalibro.get(i).getnombre()+ " //  Autor:  "+listalibro.get(i).getcodigo());  
+             }   
+            System.out.println("Ingrese el numero de la lista y el código del ejemplar ");
+            num=leer.nextInt();
+            cod=leer.nextInt();
+           if(cod==listalibro.get(num).getcodigo()){
+            System.out.println("Ingrese cantidad de ejemplares a devolver");
+            dev=leer.nextInt();   
+            listalibro.get(num).devolucion(dev,cod);
+           }
+            
+            break;
+        case 3:System.out.println("==Lista de ejemplares disponibles==");
+             for(int i=0; i<5; i++){
+                System.out.println(i+".- " +listalibro.get(i).getnombre()+ " //  Autor:  "+listalibro.get(i).getautor()+" // Disponibles: "+listalibro.get(i).getnumEjemDisponibles());  
+             }   
+        
+            break;
+        default:
+            System.out.println("Ingrese una opción válida");
+            break;
+    }    
+        System.out.println("Desea realizar otra operación? S/N");
+        continuar=leer.next();
+    }while("s".equals(continuar)||"S".equals(continuar));  
+        System.out.println("\t¡Vuelva Pronto!");
+        System.out.println("===Capsule Corp Library===");
+    }
+   
+}
+
+package sab5juniolibro;
+import java.util.Scanner;
+/**
+ *
+ * @author Jesu Fernández
+ */
+public class Libro {
+    Scanner leer=new Scanner(System.in);
+ private   String nombre, autor;
+ private   int numEjemplares,numEjemDisponibles,codigo;
+ 
+  int OP;
+    //Constructor con parámetros por designar
+    public Libro(String nombre, String autor,int numEjemplares,int numEjemDisponibles, int codigo){
+    this.nombre=nombre;
+    this.autor=autor;
+    this.numEjemplares=numEjemplares;
+    this.numEjemDisponibles=numEjemDisponibles;
+    this.codigo=codigo;
+    }
+    //Constructor con parámetros
+    public Libro(){
+    this.nombre="Manual para lavarse la carita como Pinpon";
+    this.autor="Pinpon";
+    this.numEjemplares=5;
+    this.numEjemDisponibles=1;
+    this.codigo=1234;
+     }
+    
+    //get y set nombre
+    public void setnombre(){
+    this.nombre=nombre;
+    }
+    public String getnombre(){
+        return nombre;
+    }
+    //get y set autor
+    public void setautor(){
+    this.autor=autor;
+    }
+    public String getautor(){
+        return autor;
+    }
+    //get y set numEjemplares
+    public void setnumEjemplares(int numEjemplares){
+    this.numEjemplares=numEjemplares;
+    }
+    public int getnumEjemplares(int numEjemplares){
+        return numEjemplares;
+    }
+    //get y set numEjemDisponibles
+    public void setnumEjemDisponibles(int numEjemDisponibles){
+    this.numEjemDisponibles=numEjemDisponibles;
+    }
+    public int getnumEjemDisponibles(){
+        return numEjemDisponibles;
+    }
+    public void setcodigo(){
+    this.codigo=codigo;
+    }
+    public int getcodigo(){
+        return codigo;
+    }
+    
+    
+    //Métodos
+    public void prestamo(int pres){
+       if(pres>numEjemDisponibles){
+        do{   System.out.println("El préstamo supera la cantidad de ejemplares disponibles, la cantidad disponible es "+ numEjemDisponibles);
+               System.out.println("OP 1 Para rectificar la solicitud, OP 2 volver al menú ");
+               int OP=leer.nextInt();
+                    if(OP==1){
+                        System.out.println("Ingrese cantidad de ejemplares a préstamo");
+                    pres=leer.nextInt();//pres es para almacenar la cantidad de ejemplares a préstamo
+                     }else{pres=0;}
+            }while(pres>numEjemDisponibles);
+        }else{numEjemDisponibles=numEjemDisponibles-pres;
+            System.out.println("Préstamo exitoso");
+             }   
+    }    
+        
+       
+    public void devolucion(int dev, int codigo){
+    if(dev>numEjemplares|| dev>(numEjemplares-numEjemDisponibles)){
+        do{     System.out.println("Cantidad supera ejemplares declarados en Biblioteca, verifique cantidad y/o código");
+                 System.out.println("OP 1 Para rectificar cantidad, OP 2 volver al menú ");
+                    int OP=leer.nextInt();
+                    if(OP==1){
+                        System.out.println("Ingrese cantidad de ejemplares a devolución");
+                    dev=leer.nextInt();
+                    }else{dev=0;}
+        }while(dev>numEjemplares|| dev>(numEjemplares-numEjemDisponibles));
+        
+    }else{ numEjemDisponibles=numEjemDisponibles+dev;
+        System.out.println("Ejemplar devuelto exitosamente");            
+            }                        
+       
+    }
+    public void verificar(){
+        System.out.println("Disponibles : " +numEjemDisponibles);
+    }
+   
+}

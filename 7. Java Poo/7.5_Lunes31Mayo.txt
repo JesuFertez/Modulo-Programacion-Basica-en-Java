@@ -32,10 +32,6 @@ public class Lunes31 {
     
 }
 
-Actividad DÍA 3 SEMANA 6 del 31/05:
-
-Crear 2 0 3 clases con sus respectivos atributos, métodos , métodos constructores por defecto y con todos sus atributos, métodos accesorios y método que muestre todos los atributos de las clases. Crear distintas instancias en el main para probar las clases.
-
 package lunes31;
 
 import java.util.Scanner;

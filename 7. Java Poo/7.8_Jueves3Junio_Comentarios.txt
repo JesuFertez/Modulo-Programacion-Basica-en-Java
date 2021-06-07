@@ -1,0 +1,8 @@
+Jueves 3 de junio
+Trabajamos ejercicios que simulen operaciones bancarias, cuentas, giros, depósitos, transferencias, 
+debo confesar que se me está formando un lío un poco desastroso, me confundí, la verdad se me complica
+implementar los arrays para crear nuevas clases cuentas, todavía sigue siendo un poco confuso hacerlo
+de esa manera pero si somos sensatos, vendría a ser lo más optimo, aunque aún no logro hacerlo bien,
+no manejo la sintaxis adecuada para ello, seguiré intentando, buscando formas, a prueba y error.
+Hoy nos quedaremos después de clases con unos compañeros a hablar de código y maneras más optimas
+de implementar, veremos nuestras trabas y solucionaremos lo que podamos manejar.

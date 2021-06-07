@@ -1,0 +1,10 @@
+Miércoles 2 de junio.
+Hoy realizamos un ejercicio con calendarios. La verdad estoy bastante orgullosa de mi
+código, pude desarrollar la lógica para las fechas super bien, (creo, soy novata aún),
+y con interfaz gráfica y todo (dentro de lo posible). Pero como se es sabido, no es 
+mejor el que trabaja más, si no el que es más eficaz, todo mi esfuerzo se vio opacado
+al ver que una compañera con más experiencia claro está, desarrollo el ejercicio, en
+un par de líneas de código, usando la Clase calendar, yo también la ocupe, pero de una
+manera diferente, aún tengo mucho que aprender, aunque de mi lógica, estoy bastante orgullosa, he mejorado bastante y eso también es válido, pues estoy iniciando en esto de
+ la Programación, hay un mundo de cosas que desconozco, pero voy aprendiendo cada día más.
+	Sigo con mis libros, sigo con los videos de Programador novato (llevaré unos 60 vistos ya).

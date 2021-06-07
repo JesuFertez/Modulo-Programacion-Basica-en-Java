@@ -1,0 +1,6 @@
+Martes 1 de Junio.
+Hoy estuvimos trabajando con clases nuevamente y asignando contadores, para reforzar el uso y 
+entendimiento de las clases, los llamados en el main y los atributos, este ejercicio me fue bastante más
+fácil que el anterior, se debe también a que he estado estudiando cada vez que tengo tiempo libre, sigo
+leyendo mis libros y sigo viendo los videos de Programador novato, debo decir que he invertido bastantes horas de estudio.
+	Aún no domino muy bien el tema de los Arrays, pero voy avanzando…

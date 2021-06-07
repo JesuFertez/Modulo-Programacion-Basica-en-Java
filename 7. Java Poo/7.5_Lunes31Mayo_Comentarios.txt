@@ -1,0 +1,14 @@
+Lunes 31 de Mayo.
+Comentarios; trabajamos ejercicios con clases, puedo implementar mejor la interfaz gráfica,
+trabajo en un juego para las clases, “Los juegos del quehacer”. Se implementa la librería
+Random de java, JOptionPane panel para crear diálogos, interacción y mostrar los mensajes
+del juego, la logré implementar gracias a los videos de Programador Novato en Youtube. 
+	El juego trata de ingresar dos jugadores, para cada jugador se lanza el dado, el
+cual contiene un random de 6+1 (números hasta el “6”, la verdad se supone que hasta 7 por
+que la suma de 6+1 es 7, pero nunca sale 7 y al hacerla de 5+1 no muestra nunca el 6, probé
+muchísimas veces, el resultado del “dado” del Random en realidad esta asignado a una tarea,
+a mayor el número, menor la tarea o en su efecto ninguna para el número 6 y a menor número
+de Random, mayor la tarea asignada, disfruté bastante haciéndolo y buscando la manera de
+asignar los panel con las variables.
+	he estado leyendo mis libros, y viendo muchísimos videos para complementar los
+aprendizajes.
