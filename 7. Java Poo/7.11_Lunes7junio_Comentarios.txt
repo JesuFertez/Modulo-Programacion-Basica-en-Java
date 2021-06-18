@@ -1,0 +1,7 @@
+No hay muchas cosas nuevas que comentar, avanzo bastante bien, entre videos y lecturas, Hoy vimos 
+herencia, al principio me es un poco complicado entender cómo funciona, pero a medida que me
+familiarizo con los términos   los voy asimilando bastante bien.
+	Sigo buscando información para complementar lo aprendido, la ayuda de algunos compañeros con
+más experiencia, ha sido clave para lograr una mejor comprensión sobre los usos y la sintaxis adecuada,
+aveces tengo una idea de cómo hacer las cosas, pero falla la sintaxis. Por ello sigo buscando, hay mucho
+por aprender aún.

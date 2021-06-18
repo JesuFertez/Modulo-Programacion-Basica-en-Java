@@ -1,0 +1,8 @@
+Mejoré bastante mi código, me sobró tiempo en el ejercicio, así que decidí poner unas cosas nuevas,
+como un ArrayList para manejar los ingresos de nuevos productos, un menú con opciones para elegir
+que producto ingresar, opciones para ver el listado de los productos ingresados,, tuve un pequeño 
+problema al mostrar un atributo de la clase padre, mis compañeros intentaron ayudar pero nadie pudo
+encontrar el error, al término de clase, nos quedamos con unos compañeros, solicitaron ver nuevamente
+el código y fue Carlos Zamora quién encontró el error, me gusta bastante que se de este espacio entre 
+compañeros para comentar y debatir sobre las soluciones a los distintos planteamientos dentro de 
+nuestros códigos.

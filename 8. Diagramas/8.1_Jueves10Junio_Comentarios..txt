@@ -1,0 +1,7 @@
+Hoy empezamos a ver diagramas de caso de uso, por lo que mencionó el profesor y lo que he investigado, 
+son muy útiles y quizás imprescindibles para especificar los requerimientos y la funcionalidad del programa 
+que se va a desarrollar. 
+	Una vez terminé el ejercicio comencé a leer sobre Java Swing, me leí el capítulo 7 completo, del libro 
+“Fundamentos de Programación” habla sobre Java Swing, JOptionPane, sobre  scroll, la manera de implementarlo y 
+las librerías necesarias para hacer que funcione, botones e interfaz, es bastante buena la información, simple
+y precisa para alguien que está recién comenzando.

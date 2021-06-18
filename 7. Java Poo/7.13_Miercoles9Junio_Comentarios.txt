@@ -1,0 +1,6 @@
+Hoy trabajamos Clases Abstractas, debo decir que me costó bastante poder completar el ejercicio, y tuve
+que buscar muchos ejemplos, la verdad se me complico por que no cree un constructor sin parámetros, no
+me di cuenta hasta que probando me resulto, me guié viendo otros códigos de ejemplo en línea. Ahora ya 
+entendí su funcionamiento y debo decir que son bastante útiles, lamentablemente no hay mucha información
+de ellos en los libros que estoy leyendo, la mencionan pero no de una manera descriptiva para
+el nuevo usuario.
